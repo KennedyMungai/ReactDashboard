@@ -3,7 +3,7 @@ import { createContext, useMemo, useState } from "react";
 
 
 // color design tokens
-const tokens = (mode) =>
+export const tokens = (mode) =>
 (
     {
         ...(mode === 'dark' ? {
