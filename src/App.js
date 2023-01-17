@@ -5,10 +5,13 @@ import { ThemeProvider } from "@emotion/react";
 
 function App()
 {
-  return (
+  const [theme, colorMode] = useMode()
+
+  return (<colorModeContext.Provider value={colorMode}>
     <div className="app">
 
     </div>
+  </colorModeContext.Provider>
   );
 }
 
