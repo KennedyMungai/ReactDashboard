@@ -17,8 +17,8 @@ const Topbar = () =>
 
     return (
         <Box display="flex" justifyContent="space-between" p={2}>
-
-        </Box>
+            <IconButton sx={{ display: "flex" }}></IconButton>
+        </Box >
     )
 }
 
