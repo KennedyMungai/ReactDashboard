@@ -1,3 +1,6 @@
+import { colorModeContext, useMode } from "./theme";
+
+
 
 function App()
 {
