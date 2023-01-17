@@ -59,6 +59,7 @@ const Sidebar = () =>
                                     width="100px"
                                     height="100px"
                                     src={"https://randomuser.me/api/portraits/men/46.jpg"}
+                                    style={{ cursor: "pointer" }}
                                 />
                             </Box>
                             <Box>
