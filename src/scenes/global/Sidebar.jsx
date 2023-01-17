@@ -52,9 +52,13 @@ const Sidebar = () =>
                     </MenuItem>
                     {/* USER */}
                     {!isCollapsed && (
-                        <Box>
-                            <Box>
-                                <img />
+                        <Box mb="25px">
+                            <Box display="flex" justifyContent="center" alignItems="center">
+                                <img
+                                    alt="profile-user"
+                                    width="100px"
+                                    height="100px"
+                                />
                             </Box>
                             <Box>
                                 <Typography>Kijana Mang'aa</Typography>
@@ -64,7 +68,7 @@ const Sidebar = () =>
                     )}
                 </Menu>
             </ProSidebar>
-        </Box>
+        </Box >
     )
 }
 
