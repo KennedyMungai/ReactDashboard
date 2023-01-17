@@ -9,6 +9,7 @@ function App()
 
   return (<colorModeContext.Provider value={colorMode}>
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       <div className="app">
       </div>
     </ThemeProvider>
