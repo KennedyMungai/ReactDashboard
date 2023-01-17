@@ -63,7 +63,14 @@ const Sidebar = () =>
                                 />
                             </Box>
                             <Box textAlign="center">
-                                <Typography variant="h2" color={colors.gray[100]} fontWeight="bold">Kijana Mang'aa</Typography>
+                                <Typography
+                                    variant="h2"
+                                    color={colors.gray[100]}
+                                    fontWeight="bold"
+                                    sx={{
+                                        m: "10px 0 0 0"
+                                    }}
+                                >Kijana Mang'aa</Typography>
                                 <Typography>Some guy that works here</Typography>
                             </Box>
                         </Box>
