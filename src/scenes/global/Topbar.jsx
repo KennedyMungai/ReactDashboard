@@ -16,9 +16,9 @@ const Topbar = () =>
     const colorMode = useContext(colorModeContext)
 
     return (
-        <div>
+        <Box display="flex" justifyContent="space-between" p={2}>
 
-        </div>
+        </Box>
     )
 }
 
