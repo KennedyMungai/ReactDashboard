@@ -45,7 +45,25 @@ const Sidebar = () =>
                 }
             }}
         >
+            <ProSidebar>
+                <Menu>
+                    <MenuItem>
 
+                    </MenuItem>
+                    {/* USER */}
+                    {!isCollapsed && (
+                        <Box>
+                            <Box>
+                                <img />
+                            </Box>
+                            <Box>
+                                <Typography>Kijana Mang'aa</Typography>
+                                <Typography>Some guy that works here</Typography>
+                            </Box>
+                        </Box>
+                    )}
+                </Menu>
+            </ProSidebar>
         </Box>
     )
 }
