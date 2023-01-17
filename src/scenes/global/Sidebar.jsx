@@ -26,9 +26,9 @@ const Sidebar = () =>
     const [selected, setSelected] = useState('Dashboard')
 
     return (
-        <div>
+        <Box>
 
-        </div>
+        </Box>
     )
 }
 
