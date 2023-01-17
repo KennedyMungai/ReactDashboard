@@ -1,6 +1,6 @@
 import { Box, IconButton, Typography, useTheme } from '@mui/material'
 import React, { useState } from 'react'
-import { ProSidebar, Menu, MenuItem } from 'react-pro-sidebar'
+import { ProSidebarProvider, Menu, MenuItem } from 'react-pro-sidebar'
 // import 'react-pro-sidebar/dist/css/styles.css'
 import { Link } from 'react-router-dom'
 import { tokens } from '../../theme'
@@ -45,7 +45,7 @@ const Sidebar = () =>
                 }
             }}
         >
-            <ProSidebar>
+            <ProSidebarProvider>
                 <Menu>
                     <MenuItem>
 
@@ -71,12 +71,15 @@ const Sidebar = () =>
                                         m: "10px 0 0 0"
                                     }}
                                 >Kijana Mang'aa</Typography>
-                                <Typography>Some guy that works here</Typography>
+                                <Typography
+                                    variant="h5"
+                                    color={colors.greenAccent[500]}
+                                >Some guy that works here</Typography>
                             </Box>
                         </Box>
                     )}
                 </Menu>
-            </ProSidebar>
+            </ProSidebarProvider>
         </Box >
     )
 }
