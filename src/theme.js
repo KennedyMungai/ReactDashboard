@@ -161,6 +161,9 @@ export const themeSettings = (mode) =>
                     default: '#fcfcfc'
                 }
             })
+        },
+        typography: {
+            fontFamily: ["Source Sans Pro", "sans-serif"].join(",")
         }
     }
 }
