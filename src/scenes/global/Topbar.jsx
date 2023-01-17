@@ -28,7 +28,26 @@ const Topbar = () =>
                     <SearchIcon />
                 </IconButton>
             </Box>
-            <IconButton sx={{ display: "flex" }}></IconButton>
+
+            {/* ICONS */}
+            <Box display="flex">
+                <IconButton onClick={colorMode.toggleColorMode}>
+                    {theme.palette.mode === 'dark' ? (
+                        <DarkModeOutlined />
+                    ) : (
+                        <LightModeOutlined />
+                    )}
+                </IconButton>
+                <IconButton>
+                    <NotificationsOutlinedIcon />
+                </IconButton>
+                <IconButton>
+                    <SettingsOutlinedIcon />
+                </IconButton>
+                <IconButton>
+                    <PersonOutlined />
+                </IconButton>
+            </Box>
         </Box >
     )
 }
