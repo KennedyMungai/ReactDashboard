@@ -192,3 +192,10 @@ export const themeSettings = (mode) =>
         }
     }
 }
+
+
+// react context for the color mode
+export const colorModeContext = createContext({
+    toggleColorMode: () => 
+})
+}
