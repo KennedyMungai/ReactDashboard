@@ -13,6 +13,7 @@ import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 function App()
@@ -25,6 +26,9 @@ function App()
       <div className="app">
         <main className="content">
           <Topbar />
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+          </Routes>
         </main>
       </div>
     </ThemeProvider>
