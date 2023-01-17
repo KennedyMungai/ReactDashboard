@@ -58,6 +58,7 @@ const Sidebar = () =>
                                     alt="profile-user"
                                     width="100px"
                                     height="100px"
+                                    src={"https://randomuser.me/api/portraits/men/46.jpg"}
                                 />
                             </Box>
                             <Box>
