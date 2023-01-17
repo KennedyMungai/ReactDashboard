@@ -8,9 +8,10 @@ function App()
   const [theme, colorMode] = useMode()
 
   return (<colorModeContext.Provider value={colorMode}>
-    <div className="app">
-
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="app">
+      </div>
+    </ThemeProvider>
   </colorModeContext.Provider>
   );
 }
