@@ -59,10 +59,10 @@ const Sidebar = () =>
                                     width="100px"
                                     height="100px"
                                     src={"https://randomuser.me/api/portraits/men/46.jpg"}
-                                    style={{ cursor: "pointer", borderRadius="50%" }}
+                                    style={{ cursor: "pointer", borderRadius: "50%" }}
                                 />
                             </Box>
-                            <Box>
+                            <Box textAlign="center">
                                 <Typography>Kijana Mang'aa</Typography>
                                 <Typography>Some guy that works here</Typography>
                             </Box>
