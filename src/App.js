@@ -3,6 +3,7 @@ import { colorModeContext, useMode } from "./theme";
 import { ThemeProvider } from "@emotion/react";
 import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
+import Dashboard from "./scenes/dashboard";
 
 
 function App()
