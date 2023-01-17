@@ -11,6 +11,9 @@ function App()
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <div className="app">
+        <main className="content">
+
+        </main>
       </div>
     </ThemeProvider>
   </colorModeContext.Provider>
