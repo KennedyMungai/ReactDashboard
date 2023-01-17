@@ -7,7 +7,7 @@ export const tokens = (mode) =>
 (
     {
         ...(mode === 'dark' ? {
-            indigo: {
+            gray: {
                 100: "#e0e0e0",
                 200: "#c2c2c2",
                 300: "#a3a3a3",
@@ -18,7 +18,7 @@ export const tokens = (mode) =>
                 800: "#292929",
                 900: "#141414"
             },
-            black: {
+            primary: {
                 100: "#d0d1d5",
                 200: "#a1a4ab",
                 300: "#727681",
@@ -29,7 +29,7 @@ export const tokens = (mode) =>
                 800: "#080b12",
                 900: "#040509"
             },
-            green: {
+            greenAccent: {
                 100: "#dbf5ee",
                 200: "#b7ebde",
                 300: "#94e2cd",
@@ -40,7 +40,7 @@ export const tokens = (mode) =>
                 800: "#1e5245",
                 900: "#0f2922"
             },
-            red: {
+            redAccent: {
                 100: "#f8dcdb",
                 200: "#f1b9b7",
                 300: "#e99592",
@@ -51,7 +51,7 @@ export const tokens = (mode) =>
                 800: "#58201e",
                 900: "#2c100f"
             },
-            indigo: {
+            blueAccent: {
                 100: "#e1e2fe",
                 200: "#c3c6fd",
                 300: "#a4a9fc",
